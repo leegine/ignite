@@ -48,6 +48,7 @@ import org.jetbrains.annotations.Nullable;
  * by system class loader will be downloaded from given remote node
  * by task deployment identifier. If identifier has been changed on
  * remote node this class will throw exception.
+ * ♪ classloader 远程推送class ,无需在所有节点部署class文件。
  */
 @SuppressWarnings({"CustomClassloader"})
 class GridDeploymentClassLoader extends ClassLoader implements GridDeploymentInfo {
