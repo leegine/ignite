@@ -44,7 +44,7 @@ import org.apache.ignite.spi.discovery.tcp.messages.TcpDiscoveryRingLatencyCheck
 import org.jetbrains.annotations.Nullable;
 
 /**
- *
+ * ♪ 客户节点发现逻辑 tcp
  */
 abstract class TcpDiscoveryImpl {
     /** Response OK. */
