@@ -56,6 +56,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
  * Common stuff for cache load tests.
+ * ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪GRAD TEST
  */
 abstract class GridCacheAbstractLoadTest {
     /** */
@@ -65,7 +66,7 @@ abstract class GridCacheAbstractLoadTest {
     protected static final Random RAND = new Random();
 
     /** Default configuration file path. */
-    protected static final String CONFIG_FILE = "modules/tests/config/spring-cache-load.xml";
+    protected static final String CONFIG_FILE = "modules/core/src/test/config/spring-cache-load.xml";
 
     /** Default log file path. */
     protected static final String LOG_FILE = "cache-load.log";
@@ -121,7 +122,7 @@ abstract class GridCacheAbstractLoadTest {
 
         try {
             props.load(new FileReader(GridTestUtils.resolveIgnitePath(
-                    "modules/tests/config/cache-load.properties")));
+                    "./modules/core/src/test/config/cache-load.properties")));
         }
         catch (IOException e) {
             throw new RuntimeException(e);
