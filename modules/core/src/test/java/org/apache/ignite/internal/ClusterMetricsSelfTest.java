@@ -41,6 +41,7 @@ import static org.apache.ignite.events.EventType.EVT_NODE_METRICS_UPDATED;
 
 /**
  * Tests for projection metrics.
+ * ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪test start intrance
  */
 @GridCommonTest(group = "Kernal Self")
 public class ClusterMetricsSelfTest extends GridCommonAbstractTest {
@@ -83,6 +84,7 @@ public class ClusterMetricsSelfTest extends GridCommonAbstractTest {
     }
 
     /**
+     *♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪ 测试用例ignite启动
      *
      */
     @Test
