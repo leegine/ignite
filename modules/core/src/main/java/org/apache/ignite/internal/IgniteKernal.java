@@ -298,6 +298,10 @@ import static org.apache.ignite.lifecycle.LifecycleEventType.BEFORE_NODE_START;
 /**
  * Ignite kernal.
  * <p/>
+ *
+ * ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪
+ *     ignite 核心启动类
+ * ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪
  * See <a href="http://en.wikipedia.org/wiki/Kernal">http://en.wikipedia.org/wiki/Kernal</a> for information on the
  * misspelling.
  */
