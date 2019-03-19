@@ -1697,6 +1697,7 @@ public class IgnitionEx {
         }
 
         /**
+         * ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪
          * @param startCtx Starting context.
          * @throws IgniteCheckedException If start failed.
          */
